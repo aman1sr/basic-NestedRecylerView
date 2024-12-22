@@ -1,5 +1,9 @@
 package com.aman.basearchsetup.utils
 
+import com.aman.basearchsetup.BuildConfig
+
 object AppConstant {
-    val apiKey = "65270e8438dd46d2bc787a822da0cb72"
+    val apiKey by lazy {
+        BuildConfig.NEWS_API_KEY        // generate your API key from newsapi.org
+    }
 }

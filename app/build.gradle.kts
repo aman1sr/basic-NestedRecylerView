@@ -1,3 +1,5 @@
+import java.util.Properties
+
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
@@ -6,7 +8,10 @@ plugins {
 android {
     namespace = "com.aman.basearchsetup"
     compileSdk = 35
-
+    buildFeatures {
+        buildConfig = true
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.aman.basearchsetup"
         minSdk = 24
@@ -15,6 +20,8 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField("String", "NEWS_API_KEY", "\"65270e8438dd46d2bc787a822da0cb72\"")
     }
 
     buildTypes {
@@ -32,9 +39,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = "1.8"
-    }
-    buildFeatures{
-        viewBinding = true
     }
 }
 

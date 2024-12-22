@@ -9,14 +9,14 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 
-class BaseViewModel: ViewModel() {
+class NewsViewModel: ViewModel() {
     val networkService = ApiClient.networkService
 
     private val _data = MutableStateFlow<TopHeadlinesResponse?>(null)
     val data : StateFlow<TopHeadlinesResponse?> = _data
 
     init {
-//        fetchNewsData()
+        fetchNewsData()
     }
 
     private fun fetchNewsData() {
