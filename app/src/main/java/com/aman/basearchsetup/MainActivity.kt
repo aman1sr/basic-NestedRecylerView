@@ -1,6 +1,7 @@
 package com.aman.basearchsetup
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,11 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import com.aman.basearchsetup.databinding.ActivityMainBinding
+import com.aman.basearchsetup.model.Article
+import com.aman.basearchsetup.model.TopHeadlinesResponse
+import com.aman.basearchsetup.model.got.GOTResponse
+import com.aman.basearchsetup.model.got.GOTResponseItem
+import com.aman.basearchsetup.utils.Util
 import kotlinx.coroutines.launch
 const val TAG = "BASE_ARCH_d"
 class MainActivity : AppCompatActivity() {
@@ -28,7 +34,11 @@ class MainActivity : AppCompatActivity() {
 
     observeData()
         binding?.btnReqNews?.setOnClickListener {   // f() to fetch JSON data
-            viewModel.fetchJsonData()
+            val jsonQuotes = Util.readJsonFromAssets(this@MainActivity,"got_quotes.json")
+            val quoteList = Util.parseJsonToModel<GOTResponse>(jsonQuotes)
+            quoteList?.let {
+                Toast.makeText(this, "Total List : ${quoteList.size}", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

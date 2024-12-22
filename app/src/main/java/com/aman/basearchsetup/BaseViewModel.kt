@@ -29,8 +29,6 @@ class BaseViewModel: ViewModel() {
             }
         }
     }
-    fun fetchJsonData(){
 
-    }
 
 }
