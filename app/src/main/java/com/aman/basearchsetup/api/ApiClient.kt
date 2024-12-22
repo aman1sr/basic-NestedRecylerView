@@ -1,0 +1,20 @@
+package com.aman.basearchsetup.api
+
+import retrofit2.Retrofit
+import retrofit2.converter.gson.GsonConverterFactory
+
+object ApiClient {
+    val networkService: NetworkService by lazy {
+        RetrofitClient.retrofit.create(NetworkService::class.java)
+    }
+}
+object RetrofitClient {
+private const val BASE_URL= "https://newsapi.org/v2"
+    val retrofit: Retrofit by lazy {
+        Retrofit.Builder()
+            .baseUrl(BASE_URL)
+            .client(HttpClient.okHttpclient)
+            .addConverterFactory(GsonConverterFactory.create())
+            .build()
+    }
+}
