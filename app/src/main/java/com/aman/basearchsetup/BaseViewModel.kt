@@ -16,7 +16,7 @@ class BaseViewModel: ViewModel() {
     val data : StateFlow<TopHeadlinesResponse?> = _data
 
     init {
-        fetchNewsData()
+//        fetchNewsData()
     }
 
     private fun fetchNewsData() {

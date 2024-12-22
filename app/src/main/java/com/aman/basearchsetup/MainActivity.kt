@@ -33,19 +33,12 @@ class MainActivity : AppCompatActivity() {
         }
 
     observeData()
-        binding?.btnReqNews?.setOnClickListener {   // f() to fetch JSON data
-            val jsonQuotes = Util.readJsonFromAssets(this@MainActivity,"got_quotes.json")
-            val quoteList = Util.parseJsonToModel<GOTResponse>(jsonQuotes)
-            quoteList?.let {
-                Toast.makeText(this, "Total List : ${quoteList.size}", Toast.LENGTH_SHORT).show()
-            }
-        }
     }
 
     private fun observeData() {
         lifecycleScope.launch {
             viewModel?.data?.collect{
-                binding?.txtNews?.text = it?.totalResults.toString()+" News fetched"
+              // observe data here
             }
         }
     }
