@@ -1,6 +1,4 @@
-# Bottom Navigation PlayGround
-
-## Overview
+# Overview
 This Android project demonstrates basic Architecture of Android containing Network Layer, ViewModel with MutableStateFlow observing in MainActivity
 
 
