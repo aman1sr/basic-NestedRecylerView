@@ -19,9 +19,9 @@ This Android project demonstrates simple example of Nested RecyclerView , used s
 ### Screenshots
 
 <div align="center">
-    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView1.png?raw=true" />
-    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView2.png?raw=true" />
-    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView3.png?raw=true" />
+    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView1.png?raw=true?raw=true" alt=" Screenshot1" width="30%"  />
+    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView2.png?raw=true?raw=true" alt=" Screenshot2" width="30%"  />
+    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView3.png?raw=true?raw=true" alt=" Screenshot3" width="30%"  />
 </div>
 
 ---
