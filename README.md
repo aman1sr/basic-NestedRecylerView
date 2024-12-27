@@ -3,7 +3,7 @@
 ## Overview
 This Android project demonstrates simple example of Nested RecyclerView , used simple the Parent-Child Adapter Concept
 
-![Sample GIF](https://media.tenor.com/images/5d9e6aafbd9c421caebf9133765f3c81/tenor.gif)
+![Sample GIF](https://media.tenor.com/Ev-U2h5FXWkAAAAM/android-dance.gif)
 
 ## Implementation Details
 
@@ -19,9 +19,9 @@ This Android project demonstrates simple example of Nested RecyclerView , used s
 ### Screenshots
 
 <div align="center">
-    <img src="https://github.com/aman1sr/bottomNavigation-playground/blob/master/app/screenshot/lily.png?raw=true" alt="Lily Screenshot" width="30%" />
-    <img src="https://github.com/aman1sr/bottomNavigation-playground/blob/master/app/screenshot/rose.png?raw=true" alt="Rose Screenshot" width="30%" />
-    <img src="https://github.com/aman1sr/bottomNavigation-playground/blob/master/app/screenshot/tulip.png?raw=true" alt="Tulip Screenshot" width="30%" />
+    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView1.png?raw=true" />
+    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView2.png?raw=true" />
+    <img src="https://github.com/aman1sr/basicNestedRecylerView/blob/master/app/screenshot/basic_nested_revView3.png?raw=true" />
 </div>
 
 ---
