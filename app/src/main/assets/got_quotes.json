@@ -6,6 +6,14 @@
       {
         "name": "Petyr Baelish",
         "slug": "baelish"
+      },
+      {
+        "name": "Lysa Arryn",
+        "slug": "lysa"
+      },
+      {
+        "name": "Robin Arryn",
+        "slug": "robin"
       }
     ]
   },
@@ -20,6 +28,14 @@
       {
         "name": "Robert Baratheon",
         "slug": "robert"
+      },
+      {
+        "name": "Myrcella Baratheon",
+        "slug": "myrcella"
+      },
+      {
+        "name": "Tommen Baratheon",
+        "slug": "tommen"
       }
     ]
   },
@@ -30,6 +46,14 @@
       {
         "name": "Ramsay Bolton",
         "slug": "ramsay"
+      },
+      {
+        "name": "Roose Bolton",
+        "slug": "roose"
+      },
+      {
+        "name": "Domeric Bolton",
+        "slug": "domeric"
       }
     ]
   },
@@ -40,6 +64,10 @@
       {
         "name": "Sandor Clegane",
         "slug": "sandor"
+      },
+      {
+        "name": "Gregor Clegane",
+        "slug": "gregor"
       }
     ]
   },
@@ -50,6 +78,14 @@
       {
         "name": "Walder Frey",
         "slug": "walder"
+      },
+      {
+        "name": "Black Walder Rivers",
+        "slug": "black_walder"
+      },
+      {
+        "name": "Lothar Frey",
+        "slug": "lothar"
       }
     ]
   },
@@ -60,6 +96,18 @@
       {
         "name": "Theon Greyjoy",
         "slug": "theon"
+      },
+      {
+        "name": "Asha Greyjoy",
+        "slug": "asha"
+      },
+      {
+        "name": "Balon Greyjoy",
+        "slug": "balon"
+      },
+      {
+        "name": "Euron Greyjoy",
+        "slug": "euron"
       }
     ]
   },
@@ -82,6 +130,14 @@
       {
         "name": "Tywin Lannister",
         "slug": "tywin"
+      },
+      {
+        "name": "Kevan Lannister",
+        "slug": "kevan"
+      },
+      {
+        "name": "Lancel Lannister",
+        "slug": "lancel"
       }
     ]
   },
@@ -92,6 +148,18 @@
       {
         "name": "Oberyn Martell",
         "slug": "oberyn"
+      },
+      {
+        "name": "Ellaria Sand",
+        "slug": "ellaria"
+      },
+      {
+        "name": "Doran Martell",
+        "slug": "doran"
+      },
+      {
+        "name": "Trystane Martell",
+        "slug": "trystane"
       }
     ]
   },
@@ -106,6 +174,10 @@
       {
         "name": "Lyanna Mormont",
         "slug": "lyanna"
+      },
+      {
+        "name": "Maege Mormont",
+        "slug": "maege"
       }
     ]
   },
@@ -140,6 +212,10 @@
       {
         "name": "Sansa Stark",
         "slug": "sansa"
+      },
+      {
+        "name": "Benjen Stark",
+        "slug": "benjen"
       }
     ]
   },
@@ -158,6 +234,10 @@
       {
         "name": "Daenerys Targaryen",
         "slug": "daenerys"
+      },
+      {
+        "name": "Viserys Targaryen",
+        "slug": "viserys"
       }
     ]
   },
@@ -168,6 +248,10 @@
       {
         "name": "Samwell Tarly",
         "slug": "samwell"
+      },
+      {
+        "name": "Randyll Tarly",
+        "slug": "randyll"
       }
     ]
   },
@@ -178,6 +262,10 @@
       {
         "name": "Brienne of Tarth",
         "slug": "brienne"
+      },
+      {
+        "name": "Selwyn Tarth",
+        "slug": "selwyn"
       }
     ]
   },
@@ -188,6 +276,18 @@
       {
         "name": "Olenna Tyrell",
         "slug": "olenna"
+      },
+      {
+        "name": "Mace Tyrell",
+        "slug": "mace"
+      },
+      {
+        "name": "Loras Tyrell",
+        "slug": "loras"
+      },
+      {
+        "name": "Margaery Tyrell",
+        "slug": "margaery"
       }
     ]
   }

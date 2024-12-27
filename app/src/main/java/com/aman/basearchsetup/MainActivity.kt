@@ -8,7 +8,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.aman.basearchsetup.adapter.ParentHouseAdapter
 import com.aman.basearchsetup.databinding.ActivityMainBinding
+import com.aman.basearchsetup.model.got.GOTResponse
+import com.aman.basearchsetup.utils.Util
 import kotlinx.coroutines.launch
 
 const val TAG = "BASE_ARCH_d"
@@ -28,6 +32,23 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         observeData()
+        supportActionBar?.title = "Basic Nested RecylerView"
+        readCustomGOTjsonData()
+    }
+
+    private fun readCustomGOTjsonData() {
+        val gotJSONData = Util.readJsonFromAssets(this@MainActivity, "got_quotes.json")
+        val gotResponse: GOTResponse = Util.parseJsonToModel<GOTResponse>(gotJSONData)
+        Log.d(TAG, "readCustomGOTjsonData: ${gotJSONData.toString()}")
+        setUpParentHouseAdatper(gotResponse)
+    }
+
+    private fun setUpParentHouseAdatper(gotResponse: GOTResponse) {
+        val adapter = ParentHouseAdapter()
+        adapter.submitList(gotResponse)
+        binding?.parentRecyclerView?.layoutManager = LinearLayoutManager(this@MainActivity)
+        binding?.parentRecyclerView?.adapter = adapter
+
     }
 
     private fun observeData() {
