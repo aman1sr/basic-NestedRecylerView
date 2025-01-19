@@ -19,23 +19,65 @@
   },
   {
     "slug": "baratheon",
-    "name": "House Baratheon of Dragonstone",
+    "name": "House Baratheon",
     "members": [
       {
         "name": "Joffrey Baratheon",
-        "slug": "joffrey"
+        "slug": "joffrey",
+        "titles": [
+          "King of the Andals, the Rhoynar, and the First Men",
+          "Lord of the Seven Kingdoms"
+        ],
+        "status": "Deceased",
+        "actor": "Jack Gleeson"
       },
       {
         "name": "Robert Baratheon",
-        "slug": "robert"
+        "slug": "robert",
+        "titles": [
+          "King of the Andals, the Rhoynar, and the First Men",
+          "Lord of the Seven Kingdoms",
+          "Lord of Storm's End"
+        ],
+        "status": "Deceased",
+        "actor": "Mark Addy"
+      },
+      {
+        "name": "Stannis Baratheon",
+        "slug": "stannis",
+        "titles": [
+          "Lord of Dragonstone",
+          "King of the Seven Kingdoms (claimant)"
+        ],
+        "status": "Deceased",
+        "actor": "Stephen Dillane"
+      },
+      {
+        "name": "Renly Baratheon",
+        "slug": "renly",
+        "titles": [
+          "Lord of Storm's End",
+          "King of the Seven Kingdoms (claimant)"
+        ],
+        "status": "Deceased",
+        "actor": "Gethin Anthony"
       },
       {
         "name": "Myrcella Baratheon",
-        "slug": "myrcella"
+        "slug": "myrcella",
+        "titles": ["Princess"],
+        "status": "Deceased",
+        "actor": "Nell Tiger Free"
       },
       {
         "name": "Tommen Baratheon",
-        "slug": "tommen"
+        "slug": "tommen",
+        "titles": [
+          "King of the Andals, the Rhoynar, and the First Men",
+          "Lord of the Seven Kingdoms"
+        ],
+        "status": "Deceased",
+        "actor": "Dean-Charles Chapman"
       }
     ]
   },
